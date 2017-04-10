@@ -20,4 +20,25 @@ A ActionScript foi criada por Gary Grossman, em 1998, e desenvolvida pela Macrom
  5. Clique em concluir. 
  
  * **Uso**
+   * Compilando
+    1. Escreva o código e salve o arquivo.
+    * Exemplo:
+    >> package {
+       import flash.display.Sprite;
+       import flash.text.TextField;
+
+       public class Hello extends Sprite{
+
+           [SWF(width="640", height="480")]
+           public function Hello () {
+               var t:TextField = new TextField();
+               t.text = "Hello world!";
+               t.x = 100;
+               t.y = 100;
+               addChild(t);
+           }
+       }   
+    }
+
+
 
