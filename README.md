@@ -43,7 +43,7 @@ A ActionScript foi criada por Gary Grossman, em 1998, e desenvolvida pela Macrom
            }
        }   
 
-   <br>**2.** Abra o prompt, vá até a pasta que você salvou o arquivo acima e digite:
+   <br>**2.** Abra o prompt, vá até a pasta onde você salvou o arquivo acima e digite:
      >>
         $ mxmlc nomedoarquivo.as
 
