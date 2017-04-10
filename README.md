@@ -22,7 +22,8 @@ A ActionScript foi criada por Gary Grossman, em 1998, e desenvolvida pela Macrom
  * **Uso**
    * Compilando
     1. Escreva o código e salve o arquivo.
-    * Exemplo:
+    
+      * Exemplo:
     >> 
          package {
           import flash.display.Sprite;
@@ -39,7 +40,6 @@ A ActionScript foi criada por Gary Grossman, em 1998, e desenvolvida pela Macrom
                addChild(t);
            }
        }   
-    }
 
 
 
