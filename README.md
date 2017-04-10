@@ -20,6 +20,7 @@ A ActionScript foi criada por Gary Grossman, em 1998, e desenvolvida pela Macrom
  5. Clique em concluir. 
  
  * **Uso**
+  Abra o Flash, clique em File > New, selecione o Arquivo ActionScript e clique em Ok. Uma caixa de diálogo irá se abrir, agora siga os passos abaixo para compilar o seu código.
    * Compilando<br>
    
     **1.** Escreva o código e salve o arquivo.<br>
