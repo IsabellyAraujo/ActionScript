@@ -19,7 +19,7 @@ A ActionScript foi criada por Gary Grossman, em 1998, e desenvolvida pela Macrom
  4. Aguarde a conclusão do download e a instalação;<br>
  5. Clique em concluir. 
  
- * **Uso**
+ * **Uso** <br>
   Abra o Flash, clique em File > New, selecione o Arquivo ActionScript e clique em Ok. Uma caixa de diálogo irá se abrir, agora siga os passos abaixo para compilar o seu código.
    * Compilando<br>
    
