@@ -36,9 +36,9 @@ A ActionScript foi criada por Gary Grossman, em 1998, e desenvolvida pela Macrom
            [SWF(width="500", height="500")]
            public function Hello () {
                var hello:TextField = new TextField();
-               t.text = "Hello world!";
-               t.x = 100;
-               t.y = 100;
+               hello.text = "Hello world!";
+               hello.x = 100;
+               hello.y = 100;
                addChild(hello);
            }
        }   
