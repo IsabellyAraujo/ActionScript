@@ -13,10 +13,11 @@ A ActionScript foi criada por Gary Grossman, em 1998, e desenvolvida pela Macrom
   *  **Instalação** <br>
   
  Como sabemos, A ActionScript é a linguagem de criação de scripts do Adobe Flash, que já vem instalado com ela. Para executar a instalação, siga as instruções a seguir:<br>
-passo 1. Você precisa ter o arquivo .exe do Adobe Flash baixado em seu computador para poder iniciar a instalação;<br>
-passo 2. Execute o Instalador.  Em seguida, clique em “sim”. Caso seja necessário autorizar a instalação, insira o usuário e a senha de um administrador;<br>
-passo 3. Escolha a forma que deseja receber as atualizações do programa e, em seguida, clique em “próximo”;<br>
-passo 4. Aguarde a conclusão do download e a instalação;<br>
-passo 5. Clique em concluir. 
+  1. Você precisa ter o arquivo .exe do Adobe Flash baixado em seu computador para poder iniciar a instalação;<br>
+  2. Execute o Instalador.  Em seguida, clique em “sim”. Caso seja necessário autorizar a instalação, insira o usuário e a senha de um administrador;<br>
+ 3. Escolha a forma que deseja receber as atualizações do programa e, em seguida, clique em “próximo”;<br>
+ 4. Aguarde a conclusão do download e a instalação;<br>
+ 5. Clique em concluir. 
+ 
  * **Uso**
 
