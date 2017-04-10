@@ -47,3 +47,8 @@ A ActionScript foi criada por Gary Grossman, em 1998, e desenvolvida pela Macrom
      >>
         $ mxmlc nomedoarquivo.as
 
+    <br>**3.** Após a compilação, confira se existe um arquivo .swf com o mesmo nome do arquivo .as que já foi salvo.
+    
+    <br>**4.**  clique em Arquivo, depois Abrir e selecione o arquivo .swf desejado.
+    
+    
