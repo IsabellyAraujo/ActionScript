@@ -53,6 +53,8 @@ A ActionScript foi criada por Gary Grossman, em 1998, e desenvolvida pela Macrom
     
     
 ### Sintaxe Básica
+
+<br>
  >### Variáveis e constantes
   >>Tipos aceitos:
   >>>String
