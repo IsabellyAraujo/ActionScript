@@ -5,7 +5,6 @@ Amanda Alves da Silva - amandaalves -  20141011110093
 
 ## Resumo
 
-A ActionScript é uma linguagem de script orientada a objetos baseada no ECMAScript (linguagem de programação baseada em scripts), utilizada principalmente para construção de aplicações RIA (Rich Internet Applications, traduzindo, Aplicações Ricas de Internet, como o Flicker, Gmail, Pixlr). É executada em uma máquina virtual (AVM - "ActionScript Virtual Machine"), atualmente na versão 3 que está disponível no Adobe Flash Player (plug-in encontrado em navegadores web) e também no ambiente Adobe AIR.
 <br>
 A ActionScript foi criada por Gary Grossman, em 1998, e desenvolvida pela Macromedia, hoje controlada pela Adobe. A linguagem foi influenciada pelas linguagens Java e Javascript, podendo ser compilada em Flash e Adobe Flex.
  ## Instalação e uso
@@ -53,8 +52,8 @@ A ActionScript foi criada por Gary Grossman, em 1998, e desenvolvida pela Macrom
     <br>**4.**  clique em Arquivo, depois Abrir e selecione o arquivo .swf desejado.
     
     
-## Sintaxe Básica
- >## Variáveis e constantes
+### Sintaxe Básica
+ >### Variáveis e constantes
   >>Tipos aceitos:
   >>>String
   >>>Int
@@ -69,7 +68,7 @@ A ActionScript foi criada por Gary Grossman, em 1998, e desenvolvida pela Macrom
   var myPhoneNumper: Number;
   ~~~
 
->## Operadores Relacionais e Lógicos
+>### Operadores Relacionais e Lógicos
  >> >
  >> <
  >> =>
@@ -81,20 +80,20 @@ A ActionScript foi criada por Gary Grossman, em 1998, e desenvolvida pela Macrom
  >> ++
  >> --
 
->## Operadores Aritméticos
->> ### +
->> ### -
->> ### *
->> ### /
+>### Operadores Aritméticos
+>> #### +
+>> #### -
+>> #### *
+>> #### /
 
 >>Exemplo:
 ~~~
 var numer1:int = 2 * 3 + 1 / 2 - 1;
 ~~~
 
->## Estruturas de Controle Condicional
+>### Estruturas de Controle Condicional
 
->> ## Switch
+>> ### Switch
 
 >>>Exemplo:
 ~~~
@@ -106,7 +105,7 @@ switch (myVariable)
 }
 ~~~
 
->>## If
+>> ### If
 >>>Exemplo:
 ~~~
 if(condition){
@@ -121,7 +120,7 @@ if(idade >  18){
 }
 ~~~
 
->>## Else/Else if
+>>### Else/Else if
 >>>Exemplo:
 ~~~
 var idade:Number = 20;
@@ -135,9 +134,9 @@ else
 	trade("Forbidden");
 ~~~
 
->## Estruturas de Repetição
+>### Estruturas de Repetição
 
->>## While
+>> ### While
 >>>Exemplo:
 ~~~
 var i:Number = 0;
@@ -147,7 +146,7 @@ while(i < 10){
 }
 ~~~
 
->>## Do While
+>> ### Do While
 >>>Exemplo:
 ~~~
 var i:Number = 0;
@@ -157,7 +156,7 @@ do{
 } while (i < 10);
 ~~~
 
->>## For
+>> ### For
 
 >>>Exemplo:
 ~~~
@@ -166,7 +165,7 @@ for(var i:Number=0; i<10; i++){
 }
 ~~~
 
->>## Foreach
+>> ### Foreach
 >>>Exemplo:
 ~~~
 	var obj:Object = new objeto();
@@ -177,7 +176,7 @@ for(var i:Number=0; i<10; i++){
 		trace(f);
 	}
 ~~~
->>## For In
+>> ### For In
 >>>Exemplo:
 ~~~
 var obj.Object = new objeto();
@@ -188,9 +187,9 @@ for (var f in obj){
 }
 ~~~
 
->>## Vetores, matrizes e strings
+>> ### Vetores, matrizes e strings
 
->>>## String: Substring
+>>> ### String: Substring
 >>>Exemplo:
 ~~~
 var str:String = "Hello from Paris, Texas!!!";
@@ -198,7 +197,7 @@ trace(str.substr(11,15)); //output: Paris, Texas!!!
 trace(str.substring(11,15)); //output: Pari 
 ~~~
 
->>>## String: Upper/Lower Case
+>>> ### String: Upper/Lower Case
 >>>Exemplo:
 ~~~
 var str:String = "Dr. Bob Roberts, #9."
@@ -206,7 +205,7 @@ trace(str.toLowerCase()); //dr. bob roberts, #9.
 trace(str.toUpperCase()); //DR. BOB ROBERTS, #9.
 ~~~
 
->>>## String: Sort
+>>> ### String: Sort
 >>>Exemplo:
 ~~~
 var str:String = "hello world!";
@@ -216,7 +215,7 @@ for (var i:int = 0; i < str.lengh; i++)
 }
 ~~~
 
->>>## Array
+>>> ### Array
 
 >>>Exemplo:
 
@@ -224,9 +223,9 @@ for (var i:int = 0; i < str.lengh; i++)
 var myArray:Array = ["Flash", "ActionScript"];
 ~~~
 
->>## Funções
+>> ### Funções
 
->>>## Funções Básicas
+>>> ### Funções Básicas
 >>>Exemplo:
 ~~~
 function Nome_Funcao(argumento):returnType{
