@@ -233,3 +233,5 @@ function Nome_Funcao(argumento):returnType{
 	statements;
 }
 ~~~
+
+## Sintaxe OO
