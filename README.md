@@ -271,12 +271,16 @@ var nomeDoObjeto = new nomeDaClasse();
 ~~~
 
 ### Atributos (visibilidade: privado e público, escopo: classe e objeto)
-|  Atributo | Definição |
+| ** Atributo  **| ** Definição **|
 | --- | --- |
-| dinâmico | Permitir que propriedades sejam adicionadas a ocorrências em tempo de execução. |
-|final | Não deve ser estendido por outra classe. |
-| internal (padrão)| Visível para referências dentro do pacote atual.|
+| internal (padrão) | Visível para referências dentro do mesmo pacote. |
+|private | Visível para referências na mesma classe. |
+|protected| Visível para referências na mesma classe e em classes derivadas.|
 | public | Visível para referências em todos os lugares. |
+| static | Especifica que uma propriedade pertence à classe, ao contrário das ocorrências da classe.|
+| UserDefinedNamespace | Nome do espaço para nomes personalizado definido pelo usuário. |
+#### Exemplos:
+
 ### Métodos (visibilidade: privado e público, escopo: classe e objeto)
 
 
