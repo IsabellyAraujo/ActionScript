@@ -237,14 +237,48 @@ function Nome_Funcao(argumento):returnType{
 ## Sintaxe OO
 
 ### Classes
+* Sintaxe para definição de uma classe:<br>
 ~~~
-// Sintaxe para criação (instanciação) de um objeto.
-var nomeDoObjeto: nomeDaClasse= new nomeDaClasse();
+class nome_da_classe_sem_espacos{
+//corpo da classe
+}
+~~~
+**Exemplo:**<br>
+~~~
+class carro
+{
+public var placa:String = “MM 0056”;
+private var volume_tanque:Number = 30;
+
+public function acender_farol(){
+return 1;
+}
+
+private var queimar_gasolina(){
+return 1;
+}
+static function getNumeroRodas(){
+return 4;
+}
+}
 ~~~
 
 ### Objetos
 
+* Sintaxe para criação (instanciação) de um objeto:<br>
+~~~
+var nomeDoObjeto = new nomeDaClasse();
+~~~
+
 ### Atributos (visibilidade: privado e público, escopo: classe e objeto)
+| ** Atributo  **| ** Definição **|
+| --- | --- |
+| dinâmico | Permitir que propriedades sejam adicionadas a ocorrências em tempo de execução. |
+|final | Não deve ser estendido por outra classe. |
+| internal (padrão)| Visível para referências dentro do pacote atual.|
+| public | Visível para referências em todos os lugares. |
+### Métodos (visibilidade: privado e público, escopo: classe e objeto)
+
 
 ### Métodos (visibilidade: privado e público, escopo: classe e objeto)
 
