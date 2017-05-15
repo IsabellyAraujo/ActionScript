@@ -53,3 +53,183 @@ A ActionScript foi criada por Gary Grossman, em 1998, e desenvolvida pela Macrom
     <br>**4.**  clique em Arquivo, depois Abrir e selecione o arquivo .swf desejado.
     
     
+##Sintaxe Básica
+ >#Variáveis e constantes
+  >>Tipos aceitos:
+  >>>String
+  >>>Int
+  >>>Boolean
+  >>>Number
+  >>>Object
+  >>>Class
+  >>>Array
+  
+  >>Declarando
+  ~~~
+  var myPhoneNumper: Number;
+  ~~~
+
+>#Operadores Relacionais e Lógicos
+ >> >
+ >> <
+ >> =>
+ >> <=
+ >> ==
+ >> !=
+ >> &&
+ >> ||
+ >> ++
+ >> --
+
+>#Operadores Aritméticos
+>> +
+>> -
+>> *
+>> /
+
+>>Exemplo:
+~~~
+var numer1:int = 2 * 3 + 1 / 2 - 1;
+~~~
+
+>#Estruturas de Controle Condicional
+
+>> #Switch
+
+>>>Exemplo:
+~~~
+switch (myVariable)
+{
+	case 1:
+	statements;
+	break;
+}
+~~~
+
+>>#If
+>>>Exemplo:
+~~~
+if(condition){
+	statements;
+}
+~~~
+
+~~~
+var idade:Number = 20;
+if(idade >  18){
+	trace("Bem-vindo(a)!");
+}
+~~~
+
+>>#Else/Else if
+>>>Exemplo:
+~~~
+var idade:Number = 20;
+if(idade > 18){
+	trade("Bem-Vindo(a)!");
+}
+else if(idade < 18){
+	trade("Ops, você não deve estar aqui");
+}
+else 
+	trade("Forbidden");
+~~~
+
+>#Estruturas de Repetição
+
+>>#While
+>>>Exemplo:
+~~~
+var i:Number = 0;
+while(i < 10){
+	trade(i);
+	i++;
+}
+~~~
+
+>>#Do While
+>>>Exemplo:
+~~~
+var i:Number = 0;
+do{
+	trade(i);
+	i++;
+} while (i < 10);
+~~~
+
+>>#For
+
+>>>Exemplo:
+~~~
+for(var i:Number=0; i<10; i++){
+	trace(i);
+}
+~~~
+
+>>#Foreach
+>>>Exemplo:
+~~~
+	var obj:Object = new objeto();
+	obj.i = "Olá";
+	obj.n = 12;
+	foreach(var f in obj)
+	{
+		trace(f);
+	}
+~~~
+>>#For In
+>>>Exemplo:
+~~~
+var obj.Object = new objeto();
+obj.i = "Olá!";
+obj.n = 12;
+for (var f in obj){
+	trace(f);
+}
+~~~
+
+>>#Vetores, matrizes e strings
+
+>>>#String: Substring
+>>>Exemplo:
+~~~
+var str:String = "Hello from Paris, Texas!!!";
+trace(str.substr(11,15)); //output: Paris, Texas!!!
+trace(str.substring(11,15)); //output: Pari 
+~~~
+
+>>>#String: Upper/Lower Case
+>>>Exemplo:
+~~~
+var str:String = "Dr. Bob Roberts, #9."
+trace(str.toLowerCase()); //dr. bob roberts, #9.
+trace(str.toUpperCase()); //DR. BOB ROBERTS, #9.
+~~~
+
+>>>#String: Sort
+>>>Exemplo:
+~~~
+var str:String = "hello world!";
+for (var i:int = 0; i < str.lengh; i++)
+{
+	trace(str.charAt(i), "-", str.charCodeAt(i));
+}
+~~~
+
+>>>#Array
+
+>>>Exemplo:
+
+~~~
+var myArray:Array = ["Flash", "ActionScript"];
+~~~
+
+>>#Funções
+
+>>>#Funções Básicas
+>>>Exemplo:
+~~~
+function Nome_Funcao(argumento):returnType{
+	statements;
+}
+~~~
