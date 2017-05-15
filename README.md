@@ -235,11 +235,31 @@ function Nome_Funcao(argumento):returnType{
 ~~~
 
 ## Sintaxe OO
+
 ### Classes
+~~~
+// Sintaxe para criação (instanciação) de um objeto.
+var nomeDoObjeto: nomeDaClasse= new nomeDaClasse();
+~~~
+
 ### Objetos
+
 ### Atributos (visibilidade: privado e público, escopo: classe e objeto)
+
 ### Métodos (visibilidade: privado e público, escopo: classe e objeto)
+
 ### Construtores
+
 ### Herança
+
 ### Polimorfismo
+
 ### Sobrecarga
+
+### Exceções
+
+#### Categorias de exeções
+
+#### Captura e lançamento de exceções
+
+#### Criar novas exeções
