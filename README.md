@@ -271,7 +271,7 @@ var nomeDoObjeto = new nomeDaClasse();
 ~~~
 
 ### Atributos (visibilidade: privado e público, escopo: classe e objeto)
-| ** Atributo  **| ** Definição **|
+|  Atributo | Definição |
 | --- | --- |
 | dinâmico | Permitir que propriedades sejam adicionadas a ocorrências em tempo de execução. |
 |final | Não deve ser estendido por outra classe. |
