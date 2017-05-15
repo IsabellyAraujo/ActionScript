@@ -235,3 +235,11 @@ function Nome_Funcao(argumento):returnType{
 ~~~
 
 ## Sintaxe OO
+### Classes
+### Objetos
+### Atributos (visibilidade: privado e público, escopo: classe e objeto)
+### Métodos (visibilidade: privado e público, escopo: classe e objeto)
+### Construtores
+### Herança
+### Polimorfismo
+### Sobrecarga
