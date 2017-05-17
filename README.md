@@ -379,15 +379,11 @@ is a run-time error.
 ### Métodos 
 Um método é uma ação que um objeto pode realizar.
 Este código instrui o MovieClip chamado shortFilm a iniciar a reprodução:
-~~~~
 shortFilm.play();
-~~~
-Esta linha faz o MovieClip chamado shortFilm parar a reprodução:
-~~~
-shortFilm.stop();
-~~~
-Este código faz um MovieClip chamado shortFilm mover o indicador de reprodução para o Quadro 1 e parar a reprodução (é como retroceder um vídeo):
 
+Esta linha faz o MovieClip chamado shortFilm parar a reprodução:
+shortFilm.stop();
+Este código faz um MovieClip chamado shortFilm mover o indicador de reprodução para o Quadro 1 e parar a reprodução (é como retroceder um vídeo):
 shortFilm.gotoAndStop(1);
 
 ### Construtores
