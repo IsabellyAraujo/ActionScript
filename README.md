@@ -115,6 +115,127 @@ if(condition){
 ~~~
 
 ~~~
+84
+>### Operadores Aritméticos
+85
+>> #### +
+86
+>> #### -
+87
+>> #### *
+88
+>> #### /
+89
+​
+90
+>Exemplo:
+91
+~~~
+92
+var numer1:int = 2 * 3 + 1 / 2 - 1;
+93
+~~~
+94
+​
+95
+>### Estruturas de Controle Condicional
+96
+​
+97
+>> ### Switch
+98
+​
+99
+>Exemplo:
+100
+~~~
+101
+switch (myVariable)
+102
+{
+103
+        case 1:
+104
+        statements;
+105
+        break;
+106
+}
+107
+~~~
+108
+​
+109
+>> ### If
+110
+>Exemplo:
+111
+~~~
+112
+if(condition){
+113
+        statements;
+114
+}
+115
+~~~
+116
+​
+117
+~~~
+118
+var idade:Number = 20;
+119
+if(idade >  18){
+120
+        trace("Bem-vindo(a)!");
+121
+}
+122
+~~~
+123
+​
+124
+>>### Else/Else if
+125
+>Exemplo:
+126
+~~~
+127
+var idade:Number = 20;
+128
+if(idade > 18){
+129
+        trade("Bem-Vindo(a)!");
+130
+}
+131
+else if(idade < 18){
+132
+        trade("Ops, você não deve estar aqui");
+133
+}
+134
+else 
+135
+        trade("Forbidden");
+136
+~~~
+137
+​
+138
+>### Estruturas de Repetição
+139
+​
+140
+>> ### While
+141
+>Exemplo:
+142
+~~~
+143
+var i:Number = 0;
+
 var idade:Number = 20;
 if(idade >  18){
 	trace("Bem-vindo(a)!");
@@ -240,6 +361,7 @@ traceListaTarefas[2][1]); // output: dentist
 ~~~
 <br>
 Matriz associativa com uma matriz indexada
+<br>
 ~~~
 var ListaTarefas:Object = new Object(); 
 ListaTarefas["Monday"] = ["wash dishes", "take out trash"]; 
