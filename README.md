@@ -87,7 +87,7 @@ A ActionScript foi criada por Gary Grossman, em 1998, e desenvolvida pela Macrom
 >> #### *
 >> #### /
 
->>Exemplo:
+>Exemplo:
 ~~~
 var numer1:int = 2 * 3 + 1 / 2 - 1;
 ~~~
@@ -96,7 +96,7 @@ var numer1:int = 2 * 3 + 1 / 2 - 1;
 
 >> ### Switch
 
->>>Exemplo:
+>Exemplo:
 ~~~
 switch (myVariable)
 {
@@ -107,7 +107,7 @@ switch (myVariable)
 ~~~
 
 >> ### If
->>>Exemplo:
+>Exemplo:
 ~~~
 if(condition){
 	statements;
@@ -122,7 +122,7 @@ if(idade >  18){
 ~~~
 
 >>### Else/Else if
->>>Exemplo:
+>Exemplo:
 ~~~
 var idade:Number = 20;
 if(idade > 18){
@@ -138,7 +138,7 @@ else
 >### Estruturas de Repetição
 
 >> ### While
->>>Exemplo:
+>Exemplo:
 ~~~
 var i:Number = 0;
 while(i < 10){
@@ -148,7 +148,7 @@ while(i < 10){
 ~~~
 
 >> ### Do While
->>>Exemplo:
+>Exemplo:
 ~~~
 var i:Number = 0;
 do{
@@ -159,7 +159,7 @@ do{
 
 >> ### For
 
->>>Exemplo:
+>Exemplo:
 ~~~
 for(var i:Number=0; i<10; i++){
 	trace(i);
@@ -167,7 +167,7 @@ for(var i:Number=0; i<10; i++){
 ~~~
 
 >> ### Foreach
->>>Exemplo:
+>Exemplo:
 ~~~
 	var obj:Object = new objeto();
 	obj.i = "Olá";
@@ -178,7 +178,7 @@ for(var i:Number=0; i<10; i++){
 	}
 ~~~
 >> ### For In
->>>Exemplo:
+>Exemplo:
 ~~~
 var obj.Object = new objeto();
 obj.i = "Olá!";
@@ -191,7 +191,7 @@ for (var f in obj){
 >> ### Vetores, matrizes e strings
 
 >>> ### String: Substring
->>>Exemplo:
+>Exemplo:
 ~~~
 var str:String = "Hello from Paris, Texas!!!";
 trace(str.substr(11,15)); //output: Paris, Texas!!!
@@ -199,7 +199,7 @@ trace(str.substring(11,15)); //output: Pari
 ~~~
 
 >>> ### String: Upper/Lower Case
->>>Exemplo:
+>Exemplo:
 ~~~
 var str:String = "Dr. Bob Roberts, #9."
 trace(str.toLowerCase()); //dr. bob roberts, #9.
@@ -207,7 +207,7 @@ trace(str.toUpperCase()); //DR. BOB ROBERTS, #9.
 ~~~
 
 >>> ### String: Sort
->>>Exemplo:
+>Exemplo:
 ~~~
 var str:String = "hello world!";
 for (var i:int = 0; i < str.lengh; i++)
@@ -215,19 +215,47 @@ for (var i:int = 0; i < str.lengh; i++)
 	trace(str.charAt(i), "-", str.charCodeAt(i));
 }
 ~~~
-
 >>> ### Array
 
->>>Exemplo:
+>Exemplo:
 
 ~~~
 var myArray:Array = ["Flash", "ActionScript"];
 ~~~
 
+>>> ### Matrizes<br>
+Matriz Multidimensional: Duas matrizes indexadas
+~~~
+var ListaTarefas:Array = new Array(); 
+ListaTarefas[0] = ["wash dishes", "take out trash"]; 
+ListaTarefas[1] = ["wash dishes", "pay bills"]; 
+ListaTarefas[2] = ["wash dishes", "dentist", "wash dog"]; 
+ListaTarefas[3] = ["wash dishes"]; 
+ListaTarefas[4] = ["wash dishes", "clean house"]; 
+ListaTarefas[5] = ["wash dishes", "wash car", "pay rent"]; 
+ListaTarefas[6] = ["mow lawn", "fix chair"];
+~~~
+~~~
+traceListaTarefas[2][1]); // output: dentist
+~~~
+<br>
+Matriz associativa com uma matriz indexada
+~~~
+var ListaTarefas:Object = new Object(); 
+ListaTarefas["Monday"] = ["wash dishes", "take out trash"]; 
+ListaTarefas["Tuesday"] = ["wash dishes", "pay bills"]; 
+ListaTarefas["Wednesday"] = ["wash dishes", "dentist", "wash dog"]; 
+ListaTarefas["Thursday"] = ["wash dishes"]; 
+ListaTarefas["Friday"] = ["wash dishes", "clean house"]; 
+ListaTarefas["Saturday"] = ["wash dishes", "wash car", "pay rent"]; 
+ListaTarefas["Sunday"] = ["mow lawn", "fix chair"];
+~~~
+
+
 >> ### Funções
 
 >>> ### Funções Básicas
->>>Exemplo:
+>Exemplo:
 ~~~
 function Nome_Funcao(argumento):returnType{
 	statements;
