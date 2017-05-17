@@ -355,7 +355,7 @@ var nomeDoObjeto = new nomeDaClasse();
 ~~~
 
 ### Atributos (visibilidade: privado e público, escopo: classe e objeto)
-| ** Atributo  **| ** Definição **|
+|  Atributo  |  Definição |
 | --- | --- |
 | internal (padrão) | Visível para referências dentro do mesmo pacote. |
 |private | Visível para referências na mesma classe. |
@@ -376,8 +376,19 @@ trace(myExample["privVar"]); // ActionScript 2.0 allows access, but in ActionScr
 is a run-time error. 
 ~~~
 
-### Métodos (visibilidade: privado e público, escopo: classe e objeto)
+### Métodos 
+Um método é uma ação que um objeto pode realizar.
+Este código instrui o MovieClip chamado shortFilm a iniciar a reprodução:
+~~~~
+shortFilm.play();
+~~~
+Esta linha faz o MovieClip chamado shortFilm parar a reprodução:
+~~~
+shortFilm.stop();
+~~~
+Este código faz um MovieClip chamado shortFilm mover o indicador de reprodução para o Quadro 1 e parar a reprodução (é como retroceder um vídeo):
 
+shortFilm.gotoAndStop(1);
 
 ### Construtores
 O código de um método de construtor é executado toda vez que uma ocorrência da classe é criada com *new*.
@@ -431,10 +442,12 @@ trace(cir.area()); // output: 3.141592653589793
 var sq:Square = new Square(); 
 trace(sq.area()); // output: 1
 ~~~
-Se uma propriedade for declarada como pública, ela será visível em qualquer lugar de código. Ao contrário das palavras-chave private, protected e internal, não coloca
-nenhuma restrição sobre a herança da propriedade.
+Se uma propriedade for declarada como pública, ela será visível em qualquer lugar de código. Ao contrário das propriedades declaradas como: *private, protected e internal*, a *public* não coloca nenhuma restrição sobre a herança da propriedade.
 
 ### Sobrecarga
+
+A sobrecarga (*Overload*), métodos de mesmo nome, que tem com argumentos diferentes (seja em número e/ou tipo de dado). 
+ActionScript não suporta sobrecarga.
 
 ### Exceções
 
