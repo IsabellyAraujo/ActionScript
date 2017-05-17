@@ -296,6 +296,21 @@ is a run-time error.
 
 
 ### Construtores
+O código de um método de construtor é executado toda vez que uma ocorrência da classe é criada com *new*.
+Exemplo:
+~~~
+class Example
+{
+ public var status:String;
+ public function Example()
+ {
+ status = "initialized";
+ }
+}
+var myExample:Example = new Example();
+trace(myExample.status); // output: initialized
+~~~
+Construtores só podem ser públicos, sendo assim opcional a utilização do atributo *public*.
 
 ### Herança e Poliformismo
 É utilizada a palavra *extends* para para indicar que uma classe herda de outra classe.<br>
