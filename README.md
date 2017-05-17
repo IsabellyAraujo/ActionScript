@@ -378,7 +378,7 @@ is a run-time error.
 
 ### Métodos 
 Um método é uma ação que um objeto pode realizar.<br>
-Abaixo, observamos exemplos de métodos que orientam o MovieClip chamado *shortFilm*.
+Abaixo, observamos exemplos de métodos que orientam o MovieClip chamado *shortFilm*.<BR>
 Este método instrui o MovieClip a iniciar a reprodução:
 ~~~
 shortFilm.play();
@@ -449,8 +449,8 @@ Se uma propriedade for declarada como pública, ela será visível em qualquer l
 
 ### Sobrecarga
 
-A sobrecarga (*Overload*), métodos de mesmo nome, que tem com argumentos diferentes (seja em número e/ou tipo de dado). 
-ActionScript não suporta sobrecarga.
+A sobrecarga (*Overload*), métodos de mesmo nome, que tem com argumentos diferentes (seja em número e/ou tipo de dado). <BR>
+O ActionScript não suporta sobrecarga.
 
 ### Exceções
 
