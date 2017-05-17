@@ -64,22 +64,22 @@ A ActionScript foi criada por Gary Grossman, em 1998, e desenvolvida pela Macrom
   >>>Class<br>
   >>>Array<br>
   
-  >>Declarando
+  >Declarando
   ~~~
   var myPhoneNumper: Number;
   ~~~
 
 >### Operadores Relacionais e Lógicos
- >> ><br>
- >> <<br>
- >> =><br>
- >> <=<br>
- >> ==<br>
- >> !=<br>
- >> &&<br>
- >> ||<br>
- >> ++<br>
- >> --<br>
+ >> **>**<br>
+ >> **<**<br>
+ >> **=>**<br>
+ >> **<=**<br>
+ >> **==**<br>
+ >> **!=**<br>
+ >> **&&**<br>
+ >> **||**<br>
+ >> **++**<br>
+ >> **--**<br>
 
 >### Operadores Aritméticos
 >> #### +
