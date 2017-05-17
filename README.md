@@ -477,12 +477,14 @@ Para definir uma função, é necessário seguir os seguintes passos:
 	2) Dar um nome à função;
 	3) Definir os parâmetros em uma lista delimitada por vírgulas e parênteses;
 	4) Fazer o corpo da função, que deve ficar entre chaves. Nessa parte, teremos todo o código que será executado quando uma função for chamada.
-		• Exemplo:
+		* Exemplo:
+		~~~
 			function traceParameter(aParam:String)
 			{
 				Trace(aParam);
 			}
 			traceParameter(“Hello”);
+		~~~
 			
 #### Expressões de função
 
@@ -495,28 +497,30 @@ A segunda forma de declarar uma função é usar uma instrução de atribuição
 	6) A palavra-chave “function”;<br>
 	7) Definir os parâmetros em uma lista delimitada por vírgulas e parênteses;<br>
 	8)Fazer o corpo da função, que deve ficar entre chaves. Nessa parte, teremos todo o código que será executado quando uma função for chamada.<br>
-		• Exemplo:<br>
+		* Exemplo:<br>
+		~~~
 		var traceParameter:Function = function(aParam:Sring)<br>
 		{<br>
 			Trace(aParam);<br>
 		}<br>
 		traceParameter(“hello”);<br> 
-	
+		~~~
 Observe que um nome de função não é especificado da mesma forma que em uma instrução de função. Outra diferença importante as duas é que uma expressão de função não é suficiente como uma instrução de função.No exemplo seguinte, temos uma função de expressão atribuída a uma matriz:<br>
-		
+	~~~
 var traceArray:Array = new Array();<br>
 traceArray[0] = function (aParam: string)<br>
 {<br>
 	Trace(aParam);<br>
 };<br>
 traceArray[0](“hello”);<br>
-
+	~~~
 #### Escolha entre instruções e expressões
 
 Sempre utilize uma instrução de função, pois elas são menos detalhadas e fornecem uma experiência mais consistente, são mais fáceis de ler e tornam o código mais conciso, além de serem menos confusas do que as expressões de função, que requerem o uso das palavras-chave “var” e “function”. Porém, caso alguma circunstância específica exija o uso de uma expressão, utilize-a.<br>
 
 As instruções de função fornecem uma experiência mais consistente entre os dois modos de compilação, já que é possível usar a sintaxe de pontos nos modos estrito e padrão para chamar um método declarado usando uma instrução de função. Isso não é necessariamente verdadeiro para métodos declarados com uma expressão de função. Por exemplo, o código a seguir define uma classe chamada Example com dois métodos: methodExpression(), que é declarado com uma expressão de função, e methodStatement(), que é declarado com uma instrução de função. No modo estrito, não é possível usar a sintaxe de pontos para chamar o método methodExpression().
 
+~~~ 
 Class Example
 {
 	var methodExpression = function() {}
@@ -526,26 +530,27 @@ Class Example
 var myEx:Exemple = new Example();
 myEx.methodExpression();
 myEx.methodStatement();
+~~~
 
 As expressões de função são consideradas mais adequadas à programação que se concentra no comportamento em tempo de execução ou dinâmico. Se você preferir usar o modo estrito, mas também precisa chamar um método declarado com uma expressão de função, você pode usar uma das duas técnicas. Primeiro, você pode chamar o método usando colchetes ( [] ) Em vez do ponto ( . ) Operador. A chamada de método que se segue êxito no modo estrito e modo padrão:
-
+~~~
 MyExample ["methodLiteral"] ();
-
+~~~
 #### Retornando valores de funções
 
 Para retornar um valor, é necessário utilizar "Return". Em seguida, coloque a expressão ou valor que deseja retornar.<br>
 <br>
 Exemplo:<br>
-
+~~~
 function doubleNum(baseNum:int):int 
 {<br>
     return (baseNum * 2);<br>
 }<br>
-
+~~~
 #### Funções Aninhadas
 
 Útil para declarar uma ou mais funções dentro de outra. Está disponível apenas dentro da função pai, a menos que uma referência a ela seja transmitida ao código externo.
-
+~~~
 function getNameAndVersion():String<br>
 {<br>
     function getVersion():String<br>
@@ -559,5 +564,4 @@ function getNameAndVersion():String<br>
     return (getProductName() + " " + getVersion());<br> 
 }<br>
 trace(getNameAndVersion());<br>
-
-
+~~~
