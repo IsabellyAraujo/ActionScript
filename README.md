@@ -377,14 +377,21 @@ is a run-time error.
 ~~~
 
 ### Métodos 
-Um método é uma ação que um objeto pode realizar.
-Este código instrui o MovieClip chamado shortFilm a iniciar a reprodução:
+Um método é uma ação que um objeto pode realizar.<br>
+Abaixo, observamos exemplos de métodos que orientam o MovieClip chamado *shortFilm*.
+Este método instrui o MovieClip a iniciar a reprodução:
+~~~
 shortFilm.play();
+~~~
 
-Esta linha faz o MovieClip chamado shortFilm parar a reprodução:
+Este método faz o *MovieClip* parar a reprodução:
+~~~
 shortFilm.stop();
-Este código faz um MovieClip chamado shortFilm mover o indicador de reprodução para o Quadro 1 e parar a reprodução (é como retroceder um vídeo):
+~~~
+Este método faz o *MovieClip* mover o indicador de reprodução para o começo e parar a reprodução:
+~~~
 shortFilm.gotoAndStop(1);
+~~~
 
 ### Construtores
 O código de um método de construtor é executado toda vez que uma ocorrência da classe é criada com *new*.
