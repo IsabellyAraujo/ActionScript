@@ -497,23 +497,23 @@ A segunda forma de declarar uma função é usar uma instrução de atribuição
 	6) A palavra-chave “function”;<br>
 	7) Definir os parâmetros em uma lista delimitada por vírgulas e parênteses;<br>
 	8)Fazer o corpo da função, que deve ficar entre chaves. Nessa parte, teremos todo o código que será executado quando uma função for chamada.<br>
-		* Exemplo:<br>
-		~~~
-		var traceParameter:Function = function(aParam:Sring)<br>
-		{<br>
-			Trace(aParam);<br>
-		}<br>
-		traceParameter(“hello”);<br> 
-		~~~
-Observe que um nome de função não é especificado da mesma forma que em uma instrução de função. Outra diferença importante as duas é que uma expressão de função não é suficiente como uma instrução de função.No exemplo seguinte, temos uma função de expressão atribuída a uma matriz:<br>
-	~~~
-var traceArray:Array = new Array();<br>
-traceArray[0] = function (aParam: string)<br>
-{<br>
-	Trace(aParam);<br>
-};<br>
-traceArray[0](“hello”);<br>
-	~~~
+		* Exemplo:
+~~~
+		var traceParameter:Function = function(aParam:Sring)
+		{
+			Trace(aParam);
+		}
+		traceParameter(“hello”);
+~~~
+Observe que um nome de função não é especificado da mesma forma que em uma instrução de função. Outra diferença importante as duas é que uma expressão de função não é suficiente como uma instrução de função.No exemplo seguinte, temos uma função de expressão atribuída a uma matriz:
+~~~
+var traceArray:Array = new Array();
+traceArray[0] = function (aParam: string)
+{
+	Trace(aParam);
+};
+traceArray[0](“hello”);
+~~~
 #### Escolha entre instruções e expressões
 
 Sempre utilize uma instrução de função, pois elas são menos detalhadas e fornecem uma experiência mais consistente, são mais fáceis de ler e tornam o código mais conciso, além de serem menos confusas do que as expressões de função, que requerem o uso das palavras-chave “var” e “function”. Porém, caso alguma circunstância específica exija o uso de uma expressão, utilize-a.<br>
@@ -540,28 +540,28 @@ MyExample ["methodLiteral"] ();
 
 Para retornar um valor, é necessário utilizar "Return". Em seguida, coloque a expressão ou valor que deseja retornar.<br>
 <br>
-Exemplo:<br>
+Exemplo:
 ~~~
 function doubleNum(baseNum:int):int 
-{<br>
-    return (baseNum * 2);<br>
-}<br>
+{
+    return (baseNum * 2);
+}
 ~~~
 #### Funções Aninhadas
 
 Útil para declarar uma ou mais funções dentro de outra. Está disponível apenas dentro da função pai, a menos que uma referência a ela seja transmitida ao código externo.
 ~~~
-function getNameAndVersion():String<br>
-{<br>
-    function getVersion():String<br>
-    { <br>
-        return "10";<br> 
-    } <br>
-    function getProductName():String<br> 
-    { <br>
-        return "Flash Player";<br> 
-    } <br>
-    return (getProductName() + " " + getVersion());<br> 
-}<br>
-trace(getNameAndVersion());<br>
+function getNameAndVersion():String
+{
+    function getVersion():String
+    { 
+        return "10";
+    }
+    function getProductName():String
+    {
+        return "Flash Player";
+    }
+    return (getProductName() + " " + getVersion());
+}
+trace(getNameAndVersion());
 ~~~
