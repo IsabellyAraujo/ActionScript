@@ -299,7 +299,7 @@ is a run-time error.
 
 ### Herança e Poliformismo
 É utilizada a palavra *extends* para para indicar que uma classe herda de outra classe.<br>
-Na herança, pode-se usar o poliformismo do código, como no exemplo abaixo, onde, devido ao poliformismo a classe *area()* vai fazer os respectivos cálculos para os objetos do tipo *Square* e *Circle()*:
+Na herança, pode-se usar o poliformismo do código, como no exemplo abaixo, onde, devido ao poliformismo a classe *area()* vai fazer os respectivos cálculos para os objetos do tipo *Square* e *Circle*:
 ~~~
 class Shape 
 { 
