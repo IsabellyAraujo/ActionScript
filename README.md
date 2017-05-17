@@ -56,13 +56,13 @@ A ActionScript foi criada por Gary Grossman, em 1998, e desenvolvida pela Macrom
 
  >### Variáveis e constantes
   >>Tipos aceitos:
-  >>>String
-  >>>Int
-  >>>Boolean
-  >>>Number
-  >>>Object
-  >>>Class
-  >>>Array
+  >>>String<br>
+  >>>Int<br>
+  >>>Boolean<br>
+  >>>Number<br>
+  >>>Object<br>
+  >>>Class<br>
+  >>>Array<br>
   
   >>Declarando
   ~~~
@@ -70,16 +70,16 @@ A ActionScript foi criada por Gary Grossman, em 1998, e desenvolvida pela Macrom
   ~~~
 
 >### Operadores Relacionais e Lógicos
- >> >
- >> <
- >> =>
- >> <=
- >> ==
- >> !=
- >> &&
- >> ||
- >> ++
- >> --
+ >> ><br>
+ >> <<br>
+ >> =><br>
+ >> <=<br>
+ >> ==<br>
+ >> !=<br>
+ >> &&<br>
+ >> ||<br>
+ >> ++<br>
+ >> --<br>
 
 >### Operadores Aritméticos
 >> #### +
