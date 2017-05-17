@@ -472,12 +472,12 @@ Exemplo: var randomNum:Number = math.random()
 
 #### Instruções de função
 
-Para definir uma função, é necessário seguir os seguintes passos:
-	1) Utilizar a palavra-chave “function”;
-	2) Dar um nome à função;
-	3) Definir os parâmetros em uma lista delimitada por vírgulas e parênteses;
-	4) Fazer o corpo da função, que deve ficar entre chaves. Nessa parte, teremos todo o código que será executado quando uma função for chamada.
-		* Exemplo:
+Para definir uma função, é necessário seguir os seguintes passos:<br>
+	1) Utilizar a palavra-chave “function”;<br>
+	2) Dar um nome à função;<br>
+	3) Definir os parâmetros em uma lista delimitada por vírgulas e parênteses;<br>
+	4) Fazer o corpo da função, que deve ficar entre chaves. Nessa parte, teremos todo o código que será executado quando uma função for chamada.<br>
+		- Exemplo:
 		~~~
 			function traceParameter(aParam:String)
 			{
@@ -488,7 +488,7 @@ Para definir uma função, é necessário seguir os seguintes passos:
 			
 #### Expressões de função
 
-A segunda forma de declarar uma função é usar uma instrução de atribuição com uma expressão de função, que às vezes também é chamada de literal de função ou função anônima. Este método é mais detalhado e amplamente usado nas versões anteriores do ActionScript. Devem ser feitos os seguintes passos:
+A segunda forma de declarar uma função é usar uma instrução de atribuição com uma expressão de função, que às vezes também é chamada de literal de função ou função anônima. Este método é mais detalhado e amplamente usado nas versões anteriores do ActionScript. Devem ser feitos os seguintes passos:<br>
 	1) Utilizar a palavra-chave “var”;<br>
 	2) Colocar o nome da função;<br>
 	3) Adicionar o operador dois-pontos (:);<br>
@@ -540,7 +540,7 @@ MyExample ["methodLiteral"] ();
 
 Para retornar um valor, é necessário utilizar "Return". Em seguida, coloque a expressão ou valor que deseja retornar.<br>
 <br>
-Exemplo:
+- Exemplo:
 ~~~
 function doubleNum(baseNum:int):int 
 {
