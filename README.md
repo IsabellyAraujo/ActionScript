@@ -347,6 +347,8 @@ trace(cir.area()); // output: 3.141592653589793
 var sq:Square = new Square(); 
 trace(sq.area()); // output: 1
 ~~~
+Se uma propriedade for declarada como pública, ela será visível em qualquer lugar de código. Ao contrário das palavras-chave private, protected e internal, não coloca
+nenhuma restrição sobre a herança da propriedade.
 
 ### Sobrecarga
 
