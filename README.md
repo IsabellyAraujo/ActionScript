@@ -527,9 +527,37 @@ var myEx:Exemple = new Example();
 myEx.methodExpression();
 myEx.methodStatement();
 
+As expressões de função são consideradas mais adequadas à programação que se concentra no comportamento em tempo de execução ou dinâmico. Se você preferir usar o modo estrito, mas também precisa chamar um método declarado com uma expressão de função, você pode usar uma das duas técnicas. Primeiro, você pode chamar o método usando colchetes ( [] ) Em vez do ponto ( . ) Operador. A chamada de método que se segue êxito no modo estrito e modo padrão:
 
+MyExample ["methodLiteral"] ();
 
+#### Retornando valores de funções
 
+Para retornar um valor, é necessário utilizar "Return". Em seguida, coloque a expressão ou valor que deseja retornar.<br>
+<br>
+Exemplo:<br>
 
+function doubleNum(baseNum:int):int 
+{<br>
+    return (baseNum * 2);<br>
+}<br>
+
+#### Funções Aninhadas
+
+Útil para declarar uma ou mais funções dentro de outra. Está disponível apenas dentro da função pai, a menos que uma referência a ela seja transmitida ao código externo.
+
+function getNameAndVersion():String<br>
+{<br>
+    function getVersion():String<br>
+    { <br>
+        return "10";<br> 
+    } <br>
+    function getProductName():String<br> 
+    { <br>
+        return "Flash Player";<br> 
+    } <br>
+    return (getProductName() + " " + getVersion());<br> 
+}<br>
+trace(getNameAndVersion());<br>
 
 
