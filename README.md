@@ -487,33 +487,33 @@ Para definir uma função, é necessário seguir os seguintes passos:
 #### Expressões de função
 
 A segunda forma de declarar uma função é usar uma instrução de atribuição com uma expressão de função, que às vezes também é chamada de literal de função ou função anônima. Este método é mais detalhado e amplamente usado nas versões anteriores do ActionScript. Devem ser feitos os seguintes passos:
-	1) Utilizar a palavra-chave “var”;
-	2) Colocar o nome da função;
-	3) Adicionar o operador dois-pontos (:);
-	4) Classe “Function” para indicar os tipos de dados;
-	5) Operador de atribuição (=);
-	6) A palavra-chave “function”;
-	7) Definir os parâmetros em uma lista delimitada por vírgulas e parênteses;
-	8)Fazer o corpo da função, que deve ficar entre chaves. Nessa parte, teremos todo o código que será executado quando uma função for chamada.
-		• Exemplo:
-		var traceParameter:Function = function(aParam:Sring)
-		{
-			Trace(aParam);
-		}
-		traceParameter(“hello”); 
+	1) Utilizar a palavra-chave “var”;<br>
+	2) Colocar o nome da função;<br>
+	3) Adicionar o operador dois-pontos (:);<br>
+	4) Classe “Function” para indicar os tipos de dados;<br>
+	5) Operador de atribuição (=);<br>
+	6) A palavra-chave “function”;<br>
+	7) Definir os parâmetros em uma lista delimitada por vírgulas e parênteses;<br>
+	8)Fazer o corpo da função, que deve ficar entre chaves. Nessa parte, teremos todo o código que será executado quando uma função for chamada.<br>
+		• Exemplo:<br>
+		var traceParameter:Function = function(aParam:Sring)<br>
+		{<br>
+			Trace(aParam);<br>
+		}<br>
+		traceParameter(“hello”);<br> 
 	
-Observe que um nome de função não é especificado da mesma forma que em uma instrução de função. Outra diferença importante as duas é que uma expressão de função não é suficiente como uma instrução de função.No exemplo seguinte, temos uma função de expressão atribuída a uma matriz:
+Observe que um nome de função não é especificado da mesma forma que em uma instrução de função. Outra diferença importante as duas é que uma expressão de função não é suficiente como uma instrução de função.No exemplo seguinte, temos uma função de expressão atribuída a uma matriz:<br>
 		
-var traceArray:Array = new Array();
-traceArray[0] = function (aParam: string)
-{
-	Trace(aParam);
-};
-traceArray[0](“hello”);
+var traceArray:Array = new Array();<br>
+traceArray[0] = function (aParam: string)<br>
+{<br>
+	Trace(aParam);<br>
+};<br>
+traceArray[0](“hello”);<br>
 
 #### Escolha entre instruções e expressões
 
-Sempre utilize uma instrução de função, pois elas são menos detalhadas e fornecem uma experiência mais consistente, são mais fáceis de ler e tornam o código mais conciso, além de serem menos confusas do que as expressões de função, que requerem o uso das palavras-chave “var” e “function”. Porém, caso alguma circunstância específica exija o uso de uma expressão, utilize-a.
+Sempre utilize uma instrução de função, pois elas são menos detalhadas e fornecem uma experiência mais consistente, são mais fáceis de ler e tornam o código mais conciso, além de serem menos confusas do que as expressões de função, que requerem o uso das palavras-chave “var” e “function”. Porém, caso alguma circunstância específica exija o uso de uma expressão, utilize-a.<br>
 
 As instruções de função fornecem uma experiência mais consistente entre os dois modos de compilação, já que é possível usar a sintaxe de pontos nos modos estrito e padrão para chamar um método declarado usando uma instrução de função. Isso não é necessariamente verdadeiro para métodos declarados com uma expressão de função. Por exemplo, o código a seguir define uma classe chamada Example com dois métodos: methodExpression(), que é declarado com uma expressão de função, e methodStatement(), que é declarado com uma instrução de função. No modo estrito, não é possível usar a sintaxe de pontos para chamar o método methodExpression().
 
