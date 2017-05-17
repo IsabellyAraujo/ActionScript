@@ -343,9 +343,10 @@ for (var i:int = 0; i < str.lengh; i++)
 ~~~
 var myArray:Array = ["Flash", "ActionScript"];
 ~~~
-
+<br>
 >>> ### Matrizes<br>
 Matriz Multidimensional: Duas matrizes indexadas
+
 ~~~
 var ListaTarefas:Array = new Array(); 
 ListaTarefas[0] = ["wash dishes", "take out trash"]; 
@@ -356,6 +357,7 @@ ListaTarefas[4] = ["wash dishes", "clean house"];
 ListaTarefas[5] = ["wash dishes", "wash car", "pay rent"]; 
 ListaTarefas[6] = ["mow lawn", "fix chair"];
 ~~~
+<br>
 ~~~
 traceListaTarefas[2][1]); // output: dentist
 ~~~
@@ -372,7 +374,6 @@ ListaTarefas["Friday"] = ["wash dishes", "clean house"];
 ListaTarefas["Saturday"] = ["wash dishes", "wash car", "pay rent"]; 
 ListaTarefas["Sunday"] = ["mow lawn", "fix chair"];
 ~~~
-
 
 >> ### Funções
 
