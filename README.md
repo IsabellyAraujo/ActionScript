@@ -143,7 +143,6 @@ if(condition){
         statements;
 }
 ~~~
-<br>
 ~~~
 var idade:Number = 20;
 if(idade >  18){
