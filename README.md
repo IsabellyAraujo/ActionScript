@@ -276,7 +276,7 @@ for (var i:int = 0; i < str.lengh; i++)
 ~~~
 var myArray:Array = ["Flash", "ActionScript"];
 ~~~
-<br>
+
 >>> ### Matrizes<br>
 Matriz Multidimensional: Duas matrizes indexadas
 
@@ -290,13 +290,13 @@ ListaTarefas[4] = ["wash dishes", "clean house"];
 ListaTarefas[5] = ["wash dishes", "wash car", "pay rent"]; 
 ListaTarefas[6] = ["mow lawn", "fix chair"];
 ~~~
-<br>
+
 ~~~
 traceListaTarefas[2][1]); // output: dentist
 ~~~
-<br>
+
 Matriz associativa com uma matriz indexada
-<br>
+
 ~~~
 var ListaTarefas:Object = new Object(); 
 ListaTarefas["Monday"] = ["wash dishes", "take out trash"]; 
