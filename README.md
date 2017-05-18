@@ -447,12 +447,11 @@ O ActionScript não suporta sobrecarga.
 O AS3 dá suporte ao tratamento de exessões através da cláusula try/catch/finally.
 #### Categorias de exeções
 
-* ** Erros de tempo de compilação ** 
-* ** Erros de tempo de execução **
-* ** Erros síncronos **
-* ** Errosassíncronos **
-* ** Exceções não detectadas **
-
+* Erros de tempo de compilação: ocorrem quando problemas sintáticos no seu código impedem a criação do aplicativo.
+* Erros de tempo de execução:  ocorrem quando você executa o aplicativo depois de compilá-lo.
+* Erros síncronos: são erros de tempo de execução que ocorrem no momento em que uma função é chamada.
+* Errosassíncronos: são erros de tempo de execução que ocorrem em vários momentos durante o tempo de execução.
+* Exceções não detectadas: são erros lançados sem nenhuma lógica correspondente (como uma instrução catch) em resposta a elas.
 
 #### Captura e lançamento de exceções
 Define-se um bloco *try* para verificar se código possui algum erro, se esse for o caso é executado o bloco contido em *catch*.<br>
@@ -488,9 +487,33 @@ finally
     myFunction(); // Perform any necessary cleanup here. 
 }
 ~~~
+A instrução *finally* delimitará as instruções que serão executadas caso ocorra ou não um erro no bloco *try*. Se não houver nenhum erro, as instruções no bloco *finally* serão executadas depois que as instruções do bloco *try* forem concluídas. Os blocos *catch* e *finally* são opcionais, porém, é preciso que um deles esteja presente; caso contrário será lançado um erro de compilação.
 
 #### Criar novas exeções
-
+Com o *throw*, você pode lançar erros explicitamente.<br>
+Você também pode estender uma das classes Error padrão para criar suas próprias classes de erro no ActionScript, você pode usar-las para identificar erros ou grupos de erros específicos que são exclusivos do seu aplicativo ou para fornecer recursos de exibição de erros exclusivos para os erros gerados pelo seu aplicativo.<br>
+Uma classe de erro especializada deve estender a classe Error principal do ActionScript. Veja um exemplo de uma classe AppError especializada que estende a classe Error:<br>
+Classe:
+~~~
+public class AppError extends Error 
+{ 
+    public function AppError(message:String, errorID:int) 
+    { 
+        super(message, errorID); 
+    } 
+}
+~~~
+Classe especializada:
+~~~
+try 
+{ 
+    throw new AppError("Encountered Custom AppError", 29); 
+} 
+catch (error:AppError) 
+{ 
+    trace(error.errorID + ": " + error.message) 
+}
+~~~
 
 ## Sintaxe Funcional
 ### Conceitos de funções básicas
