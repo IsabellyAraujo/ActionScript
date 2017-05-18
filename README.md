@@ -444,12 +444,46 @@ A sobrecarga (*Overload*), métodos de mesmo nome, que tem com argumentos difere
 O ActionScript não suporta sobrecarga.
 
 ### Exceções
-
+O AS3 dá suporte ao tratamento de exessões através da cláusula try/catch/finally.
 #### Categorias de exeções
 
 #### Captura e lançamento de exceções
+Define-se um bloco *try* para verificar se código possui algum erro, se esse for o caso é executado o bloco contido em *catch*.<br>
+Exemplo:
+~~~
+var MyError:Error = new Error("Encountered an error with the numUsers value", 99); 
+var numUsers:uint = 0; 
+try 
+{ 
+    if (numUsers == 0) 
+    { 
+        trace("numUsers equals 0"); 
+    } 
+} 
+catch (error:uint) 
+{ 
+    throw MyError; // Catch unsigned integer errors. 
+} 
+catch (error:int) 
+{ 
+    throw MyError; // Catch integer errors. 
+} 
+catch (error:Number) 
+{ 
+    throw MyError; // Catch number errors. 
+} 
+catch (error:*) 
+{ 
+    throw MyError; // Catch any other error. 
+} 
+finally  
+{ 
+    myFunction(); // Perform any necessary cleanup here. 
+}
+~~~
 
 #### Criar novas exeções
+
 
 ## Sintaxe Funcional
 ### Conceitos de funções básicas
