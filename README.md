@@ -476,15 +476,15 @@ Para definir uma função, é necessário seguir os seguintes passos:<br>
 	1) Utilizar a palavra-chave “function”;<br>
 	2) Dar um nome à função;<br>
 	3) Definir os parâmetros em uma lista delimitada por vírgulas e parênteses;<br>
-	4) Fazer o corpo da função, que deve ficar entre chaves. Nessa parte, teremos todo o código que será executado quando uma função for chamada.<br>
-		- Exemplo:
-		~~~
-			function traceParameter(aParam:String)
-			{
-				Trace(aParam);
-			}
-			traceParameter(“Hello”);
-		~~~
+	4) Fazer o corpo da função, que deve ficar entre chaves. Nessa parte, teremos todo o código que será executado quando uma função for chamada.
+- Exemplo:
+~~~
+function traceParameter(aParam:String)
+	{
+	Trace(aParam);
+	}
+traceParameter(“Hello”);
+~~~
 			
 #### Expressões de função
 
@@ -497,13 +497,13 @@ A segunda forma de declarar uma função é usar uma instrução de atribuição
 	6) A palavra-chave “function”;<br>
 	7) Definir os parâmetros em uma lista delimitada por vírgulas e parênteses;<br>
 	8)Fazer o corpo da função, que deve ficar entre chaves. Nessa parte, teremos todo o código que será executado quando uma função for chamada.<br>
-		* Exemplo:
+- Exemplo:
 ~~~
-		var traceParameter:Function = function(aParam:Sring)
-		{
-			Trace(aParam);
-		}
-		traceParameter(“hello”);
+var traceParameter:Function = function(aParam:Sring)
+	{
+		Trace(aParam);
+	}
+traceParameter(“hello”);
 ~~~
 Observe que um nome de função não é especificado da mesma forma que em uma instrução de função. Outra diferença importante as duas é que uma expressão de função não é suficiente como uma instrução de função.No exemplo seguinte, temos uma função de expressão atribuída a uma matriz:
 ~~~
@@ -539,7 +539,7 @@ MyExample ["methodLiteral"] ();
 #### Retornando valores de funções
 
 Para retornar um valor, é necessário utilizar "Return". Em seguida, coloque a expressão ou valor que deseja retornar.<br>
-<br>
+
 - Exemplo:
 ~~~
 function doubleNum(baseNum:int):int 
