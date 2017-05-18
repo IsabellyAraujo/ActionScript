@@ -7,7 +7,8 @@ Amanda Alves da Silva - amandaalves -  20141011110093
 
 <br>
 A ActionScript foi criada por Gary Grossman, em 1998, e desenvolvida pela Macromedia, hoje controlada pela Adobe. A linguagem foi influenciada pelas linguagens Java e Javascript, podendo ser compilada em Flash e Adobe Flex.
- ## Instalação e uso
+
+## Instalação e Uso
  
   *  **Instalação** <br>
   
