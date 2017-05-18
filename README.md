@@ -444,7 +444,7 @@ A sobrecarga (*Overload*), métodos de mesmo nome, que tem com argumentos difere
 O ActionScript não suporta sobrecarga.
 
 ### Exceções
-O AS3 dá suporte ao tratamento de exessões através da cláusula try/catch/finally.
+O AS3 dá suporte ao tratamento de exessões através da cláusula try/catch/finally e das classes de erro.
 #### Categorias de exeções
 
 * Erros de tempo de compilação: ocorrem quando problemas sintáticos no seu código impedem a criação do aplicativo.
@@ -454,6 +454,7 @@ O AS3 dá suporte ao tratamento de exessões através da cláusula try/catch/fin
 * Exceções não detectadas: são erros lançados sem nenhuma lógica correspondente (como uma instrução catch) em resposta a elas.
 
 #### Captura e lançamento de exceções
+
 Define-se um bloco *try* para verificar se código possui algum erro, se esse for o caso é executado o bloco contido em *catch*.<br>
 Exemplo:
 ~~~
@@ -503,7 +504,7 @@ public class AppError extends Error
     } 
 }
 ~~~
-Classe especializada:
+AppError no projeto:
 ~~~
 try 
 { 
