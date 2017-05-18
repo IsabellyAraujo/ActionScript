@@ -447,6 +447,13 @@ O ActionScript não suporta sobrecarga.
 O AS3 dá suporte ao tratamento de exessões através da cláusula try/catch/finally.
 #### Categorias de exeções
 
+* ** Erros de tempo de compilação ** 
+* ** Erros de tempo de execução **
+* ** Erros síncronos **
+* ** Errosassíncronos **
+* ** Exceções não detectadas **
+
+
 #### Captura e lançamento de exceções
 Define-se um bloco *try* para verificar se código possui algum erro, se esse for o caso é executado o bloco contido em *catch*.<br>
 Exemplo:
