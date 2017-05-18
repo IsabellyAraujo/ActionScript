@@ -114,15 +114,6 @@ if(condition){
 }
 ~~~
 
->### Operadores Aritméticos
->> #### +
->> #### -
->> #### *
->> #### /
->Exemplo:
-~~~
-var numer1:int = 2 * 3 + 1 / 2 - 1;
-~~~
 >### Estruturas de Controle Condicional
 >> ### Switch
 >Exemplo:
