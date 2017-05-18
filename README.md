@@ -465,11 +465,16 @@ O ActionScript não suporta sobrecarga.
 #### Chamada de funções
 
 Quando utilizamos o identificador de uma função seguido de parênteses, uma função é chamada.
-Exemplo: trace()
+- Exemplo:
+~~~
+trace()
+~~~
 
 Se uma função estiver com os parênteses vazios, significa que ela não possui um parâmetro.
-Exemplo: var randomNum:Number = math.random()
-
+- Exemplo:
+~~~
+var randomNum:Number = math.random()
+~~~
 #### Instruções de função
 
 Para definir uma função, é necessário seguir os seguintes passos:<br>
