@@ -342,7 +342,7 @@ return 4;
 
 * Sintaxe para criação (instanciação) de um objeto:<br>
 ~~~
-var nomeDoObjeto = new nomeDaClasse();
+var nomeDoObjeto: nomeDaClasse= new nomeDaClasse();
 ~~~
 
 ### Atributos (visibilidade: privado e público, escopo: classe e objeto)
