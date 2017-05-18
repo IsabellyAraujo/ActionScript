@@ -115,26 +115,6 @@ if(condition){
 }
 ~~~
 
->### Estruturas de Controle Condicional
->> ### Switch
->Exemplo:
-~~~
-switch (myVariable)
-{
-        case 1:
-        statements;
-        break;
-}
-~~~
-
->> ### If
-
->Exemplo:
-~~~
-if(condition){
-        statements;
-}
-~~~
 ~~~
 var idade:Number = 20;
 if(idade >  18){
@@ -154,31 +134,6 @@ else if(idade < 18){
 }
 else 
         trade("Forbidden");
-~~~
->### Estruturas de Repetição
->> ### While
->Exemplo:
-~~~
-var i:Number = 0;
-
-var idade:Number = 20;
-if(idade >  18){
-	trace("Bem-vindo(a)!");
-}
-~~~
-
->>### Else/Else if
->Exemplo:
-~~~
-var idade:Number = 20;
-if(idade > 18){
-	trade("Bem-Vindo(a)!");
-}
-else if(idade < 18){
-	trade("Ops, você não deve estar aqui");
-}
-else 
-	trade("Forbidden");
 ~~~
 
 >### Estruturas de Repetição
