@@ -229,7 +229,7 @@ for (var i:int = 0; i < str.lengh; i++)
 }
 ~~~
 
->>> ###Substring
+>>> ### Substring
 >Exemplo:
 ~~~
 var str:String = "Hello from Paris, Texas!!!";
