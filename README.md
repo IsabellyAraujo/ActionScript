@@ -81,26 +81,28 @@ Seu estilo de tipagem é estática, forte e robusta. O que implica em dizer que 
  ~~~
  
 >### Operadores Relacionais e Lógicos
- >> **>**<br>
- >> **<**<br>
- >> **=>**<br>
- >> **<=**<br>
- >> **==**<br>
- >> **!=**<br>
- >> **&&**<br>
- >> **||**<br>
- >> **++**<br>
- >> **--**<br>
+ >>Relacionais:<br>
+ >>>**>**<br>
+ >>> **<**<br>
+ >>> **=>**<br>
+ >>> **<=**<br>
+ >>> **==**<br>
+ >>> **!=**<br>
+ 
+ >>Lógicos:<br>
+ >>> **&&**<br>
+ >>> **||**<br>
 
 >### Operadores Aritméticos
 >> #### +
 >> #### -
 >> #### *
 >> #### /
+>> #### %
 
 >Exemplo:
 ~~~
-var numer1:int = 2 * 3 + 1 / 2 - 1;
+var numer1:Int = 2 * 3 + 1 / 2 - 1;
 ~~~
 
 >### Estruturas de Controle Condicional
@@ -226,6 +228,37 @@ for (var i:int = 0; i < str.lengh; i++)
 	trace(str.charAt(i), "-", str.charCodeAt(i));
 }
 ~~~
+
+>>> ###Substring
+>Exemplo:
+~~~
+var str:String = "Hello from Paris, Texas!!!";
+trace(str.slice(11,15)); // output: Pari
+trace(str.slice(-3,-1)); // output: !!
+trace(str.slice(-3,26)); // output: !!!
+trace(str.slice(-3,str.length)); // output: !!!
+trace(str.slice(-8,-3)); // output: Texas
+~~~
+
+>>> ### Concatenação
+>Exemplo: 
+~~~
+var str1:String = "green";
+var str2:String = "ish";
+var str3:String = str1 + str2; // str3 == "greenish"
+~~~
+
+~~~
+var str:String = "green";
+str += "ish"; // str == "greenish"
+Além disso, a classe String inclui um método concat() que pode ser usado da seguinte maneira:
+var str1:String = "Bonjour";
+var str2:String = "from";
+var str3:String = "Paris";
+var str4:String = str1.concat(" ", str2, " ", str3);
+// str4 == "Bonjour from Paris"
+~~~
+
 >>> ### Array
 
 >Exemplo:
@@ -269,6 +302,7 @@ ListaTarefas["Sunday"] = ["mow lawn", "fix chair"];
 
 >>> ### Funções Básicas
 >Exemplo:
+
 ~~~
 function Nome_Funcao(argumento):returnType{
 	statements;
