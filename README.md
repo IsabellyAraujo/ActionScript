@@ -6,7 +6,9 @@ Amanda Alves da Silva - amandaalves -  20141011110093
 ## Resumo
 
 <br>
-A ActionScript foi criada por Gary Grossman, em 1998, e desenvolvida pela Macromedia, hoje controlada pela Adobe. A linguagem foi influenciada pelas linguagens Java e Javascript, podendo ser compilada em Flash e Adobe Flex.
+A ActionScript foi criada por Gary Grossman, em 1998, e desenvolvida pela Macromedia, hoje controlada pela Adobe. A ActionScript é uma linguagem multiparagmal de script orientada a objetos baseada no ECMAScript, assim como a JavaScript, utilizada principalmente para construção de aplicações RIA (Aplicações Ricas de Internet), como o Flickr e o Deezer.
+É executada em uma máquina virtual (AVM - "ActionScript Virtual Machine"), atualmente na versão 3 que está disponível no Adobe Flash Player (plug-in encontrado em navegadores web) e também no ambiente Adobe AIR. 
+Seu estilo de tipagem é estática, forte e robusta. O que implica em dizer que sua tipagem é conhecida durante a compilação e  os objetos/variáveis tem um tipo bem definido e que precisa ser informado no momento de sua declaração, além de ser possível identificar os erros pelas stack traces durante a compilação, etc.
 
 ## Instalação e Uso
  
@@ -56,13 +58,15 @@ A ActionScript foi criada por Gary Grossman, em 1998, e desenvolvida pela Macrom
 ### Sintaxe Básica
 
  >### Variáveis e constantes
-  >>Tipos aceitos:
+  >>Variáveis: 
   >>>String<br>
-  >>>Int<br>
-  >>>Boolean<br>
   >>>Number<br>
+  >>>Int<br>
+  >>>Uint<br>
+  >>>Boolean<br>
   >>>Object<br>
   >>>Class<br>
+  >>>Date<br>
   >>>Array<br>
   
   >Declarando
@@ -70,6 +74,12 @@ A ActionScript foi criada por Gary Grossman, em 1998, e desenvolvida pela Macrom
   var myPhoneNumper: Number;
   ~~~
 
+ >>Constantes:
+ >Declarando:
+ ~~~
+ const taxa_desconto:Number = 0.07;
+ ~~~
+ 
 >### Operadores Relacionais e Lógicos
  >> **>**<br>
  >> **<**<br>
