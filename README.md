@@ -346,7 +346,7 @@ var nomeDoObjeto: nomeDaClasse= new nomeDaClasse();
 ~~~
 
 ### Atributos (visibilidade: privado e público, escopo: classe e objeto)
-|  Atributo  |  Definição |
+|  Tipo  |  Definição |
 | --- | --- |
 | internal (padrão) | Visível para referências dentro do mesmo pacote. |
 |private | Visível para referências na mesma classe. |
