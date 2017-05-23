@@ -139,13 +139,13 @@ if(idade >  18){
 ~~~
 var idade:Number = 20;
 if(idade > 18){
-        trade("Bem-Vindo(a)!");
+        trace("Bem-Vindo(a)!");
 }
 else if(idade < 18){
-        trade("Ops, você não deve estar aqui");
+        trace("Ops, você não deve estar aqui");
 }
 else 
-        trade("Forbidden");
+        trace("Forbidden");
 ~~~
 
 >### Estruturas de Repetição
@@ -155,7 +155,7 @@ else
 ~~~
 var i:Number = 0;
 while(i < 10){
-	trade(i);
+	trace(i);
 	i++;
 }
 ~~~
@@ -165,7 +165,7 @@ while(i < 10){
 ~~~
 var i:Number = 0;
 do{
-	trade(i);
+	trace(i);
 	i++;
 } while (i < 10);
 ~~~
