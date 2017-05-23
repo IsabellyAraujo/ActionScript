@@ -626,3 +626,14 @@ function getNameAndVersion():String
 }
 trace(getNameAndVersion());
 ~~~
+
+### Referências
+https://pt.wikipedia.org/wiki/ActionScript
+
+http://www.adobe.com/devnet/actionscript/learning.html
+
+http://help.adobe.com/pt_BR/ActionScript/3.0_ProgrammingAS3/WS5b3ccc516d4fbf351e63e3d118a9b90204-8000.html
+
+http://help.adobe.com/pt_BR/ActionScript/3.0_ProgrammingAS3/flash_as3_programming.pdf
+
+http://www.adobe.com/devnet/actionscript
